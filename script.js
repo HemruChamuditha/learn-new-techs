@@ -1,5 +1,7 @@
-let subjects = ["sinhala", "English", "Tamil"];
 
-console.log(subjects);
-subjects.unshift("accounting", "cs");
-console.log(subjects);
+ 
+
+for(let i = 2; i <= 10; i+=3){
+
+    console.log(i);
+}
