@@ -1,13 +1,11 @@
+const names = [
+    ["hemru", "kavindu", "nimal"],
+    ["Aravinda", "Gune", "Namal", "jothi"],
+]
 
- 
-
-// for(let i = 2; i <= 10; i+=3){
-
-//     console.log(i);
-// }
-
-for(let i = 34; i >=12; i--){
-    console.log(i);
+for (let i = 0; i <= names.length-1; i++) {
+    let count = names[i];
+    for(let j = 0; j < count.length; j++){
+        console.log(`Row ${i+1} --> ${names[i][j]}`);
+    }
 }
-
-
