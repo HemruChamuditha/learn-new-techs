@@ -11,22 +11,27 @@
     <h1>Practise JS</h1>
 
     <script>
-     
-     let name = "her";
+      let books = [
+        "hemru",
+        {
+          name: "madol Doowa",
+          author: "Martin Wickramasinghe",
+        },
+        {
+          name: "Pacha",
+          author: "Dasith arunalu",
+        },
+        {
+          name: "Actor",
+          author: "Kalum martel",
+        },
+      ];
 
-     try {
-      sss.toUpperCase();
-     } catch (error) {
-      console.log(error);
-     }
+      let bookNames = books.map(function (book) {
+        return book.name;
+      });
 
-     console.log("Con");
-
-     
-       
-
-
-     
+      console.log(bookNames);
     </script>
   </body>
 </html>
