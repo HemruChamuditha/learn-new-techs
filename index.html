@@ -11,27 +11,9 @@
     <h1>Practise JS</h1>
 
     <script>
-      let books = [
-        "hemru",
-        {
-          name: "madol Doowa",
-          author: "Martin Wickramasinghe",
-        },
-        {
-          name: "Pacha",
-          author: "Dasith arunalu",
-        },
-        {
-          name: "Actor",
-          author: "Kalum martel",
-        },
-      ];
-
-      let bookNames = books.map(function (book) {
-        return book.name;
-      });
-
-      console.log(bookNames);
+      function totalPayment(...orders) {
+        return orders.reduce((totalPrice, order) => totalPrice + order);
+      }
     </script>
   </body>
 </html>
